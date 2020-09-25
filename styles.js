@@ -1,1 +1,3 @@
-$("input[name='expiry-data']").mask("00 / 00");
+$(function() {
+    const $gallery = $('.gallery a').simpleLightbox();
+  });
