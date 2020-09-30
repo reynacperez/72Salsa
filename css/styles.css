@@ -50,14 +50,14 @@
   
   .navbar .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-gap: 2rem; */
     
   }
   
   .navbar .logo {
     font-size: 2rem;
-    color: red;
+    color: white;
     
   }
   
