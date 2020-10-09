@@ -144,7 +144,9 @@
     margin-top: 1rem;
     font-size: 10rem;
   }
-
+.section-c .label{
+  text-align: bottom;
+}
 
   .section-c .gallery {
     display: grid;
@@ -198,7 +200,7 @@ margin-left: 20px;
   grid-column-start: 3;
   grid-column-end: 4;
   color: white;
-  justify-items: ;
+  
 }
 
 .section-c .gallery div:nth-child(4) {
@@ -215,7 +217,7 @@ margin-left: 20px;
   }
    
   .section-footer {
-    background: gray;
+    background: black;
     color: #fff;
     padding: 4rem 0;
   }
