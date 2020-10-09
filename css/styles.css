@@ -184,8 +184,8 @@
 }
 .grid-list {
 
-column-count: 2;
-text-align: left;
+column-count: 1;
+text-align: center;
 margin-left: 20px;
 
 }
@@ -206,9 +206,7 @@ margin-left: 20px;
 
 
 /*   */
-.section-c .gallery{
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
+
 .section-c .gallery h1 {
   font-family: 'Montez', cursive; 
   font-size: 50px; 
