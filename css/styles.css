@@ -41,19 +41,6 @@
     object-fit: cover;
   }
   
-  /* .footer-container{
-    min-width: auto;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 2rem;
-  } */
-  /* .container {
-    max-width: auto;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 2rem;
-  } */
-  
   .navbar {
     font-size: 2rem;
     padding-top: 0.3rem;
@@ -168,7 +155,7 @@
     margin: 0 auto;
     grid-gap: 10px;
     width: 100%;
-    height: 100%;
+    height: 100% auto;
     position: relative;
   }
 
@@ -202,11 +189,6 @@ margin-left: 20px;
   
 }
 
-
-
-
-/*   */
-
 .section-c .gallery h1 {
   font-family: 'Montez', cursive; 
   font-size: 50px; 
@@ -232,69 +214,6 @@ margin-left: 20px;
     color: white;
   }
    
-  }  
-  /* MY original FOOTER */
-  /* .section-footer {
-    font-size: 2rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-    background-color: black;
-  }
-  
-  .section-footer .footer-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
-    
-  }
-  
-  .section-footer .footer-item {
-    font-family: 'Montez', cursive; 
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    
-  }
-  .section-footer .footer {
-    justify-self: flex-end;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .section-footer ul {
-    justify-self: flex-end;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Montez', cursive; 
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-  }
-  
-  .section-footer a {
-    padding: 0 1rem;
-  }
-  .section-footer ul li a {
-    display: inline-flex;
-    width: 40px;
-    height: 40px;
-    color: #fff;
-    font-size: 30px;
-    text-decoration: none;
-    background: red;
-    margin: 0 60px;
-    border-radius: 70%;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
-}
-  .section-footer a:hover {
-    color: green;
-  } */
-/* My ORIGINAL Footer Ends */
-  --------------------
   .section-footer {
     background: gray;
     color: #fff;
